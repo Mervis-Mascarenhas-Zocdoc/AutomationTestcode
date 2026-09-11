@@ -1,0 +1,10 @@
+{
+    "name": "playwright-practice",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "test": "playwright test --project=chromium",
+        "test:headed": "playwright test --project=chromium --headed",
+        "report": "playwright show-report"
+    }
+}
